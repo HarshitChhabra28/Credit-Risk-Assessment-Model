@@ -38,7 +38,7 @@ By tuning the probability threshold to **0.65**, the model achieved a critical r
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/HarshitChhabra28/Credit-Risk-Assessment-Model.git](https://github.com/HarshitChhabra28/Credit-Risk-Assessment-Model.git)
+    git clone https://github.com/HarshitChhabra28/Credit-Risk-Assessment-Model.git
     cd Credit-Risk-Assessment-Model
     ```
 
@@ -53,3 +53,9 @@ By tuning the probability threshold to **0.65**, the model achieved a critical r
     ```
 
 ## 📂 Project Structure
+```text
+├── data cleaning.ipynb    # Main notebook (Data cleaning, EDA, Model Training)
+├── loan_data.csv          # Raw dataset used for training
+├── loan_data_cleaned.xlsx # Processed/Cleaned dataset
+├── requirements.txt       # List of python dependencies
+└── README.md              # Project documentation
